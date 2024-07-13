@@ -1,0 +1,137 @@
+/* Beginning of CSS file */
+
+/* CSS Section 1: Basic Styles */
+/* Begin Section 1 */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden; /* Ensure no scrollbars appear */
+}
+/* End Section 1 */
+
+/* CSS Section 2: Sidebar Styles */
+/* Begin Section 2 */
+.sidebar {
+  width: 250px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  height: 100vh;
+  overflow-y: auto;
+  flex-shrink: 0; /* Prevent sidebar from shrinking */
+}
+/* End Section 2 */
+
+/* CSS Section 3: Control Styles */
+/* Begin Section 3 */
+.controls {
+  display: flex;
+  flex-direction: column;
+}
+
+.controls label {
+  margin-bottom: 5px;
+}
+
+.controls input[type="range"],
+.controls input[type="color"] {
+  margin-bottom: 15px;
+}
+/* End Section 3 */
+
+/* CSS Section 4: Canvas Styles */
+/* Begin Section 4 */
+canvas {
+  flex-grow: 1; /* Allow canvas to grow and fill the remaining space */
+  background-color: #3a3a3a;
+  border-radius: 8px;
+}
+/* End Section 4 */
+
+/* CSS Section 5: Button Styles */
+/* Begin Section 5 */
+.buttons {
+  margin-top: 20px;
+}
+
+.buttons button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #0056b3;
+}
+/* End Section 5 */
+
+/* Begin Section 6: Tooltip Styles */
+.tooltip {
+  position: absolute;
+  display: none;
+  background-color: #ffffff;
+  color: #333333;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.tooltip p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+/* End Section 6 */
+
+/* Begin Section 7: Tooltip Table Styles */
+.tooltip table {
+width: 100%;
+border-collapse: collapse;
+}
+
+.tooltip th, .tooltip td {
+border: 1px solid #cccccc;
+padding: 5px;
+text-align: left;
+}
+
+.tooltip th {
+background-color: #f0f0f0;
+}
+
+.tooltip td {
+background-color: #ffffff;
+}
+/* End Section 7 */
+
+/* Begin Section 8: Header Styles */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #3a3a3a;
+  color: transparent;
+  text-align: center;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+/* End Section 8 */
+
+/* End of CSS file */

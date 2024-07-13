@@ -1,0 +1,14 @@
+{
+  "minSpeed": 0.001,
+  "maxSpeed": 0.1,
+  "minSize": 0.1,
+  "maxSize": 100,
+  "minTransparency": 0,
+  "maxTransparency": 1,
+  "falloff": 0.19,
+  "colors": [
+    "#340f0f",
+    "#ff007b",
+    "#0000ff"
+  ]
+}
