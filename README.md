@@ -24,7 +24,9 @@ For instructions on using Codex with this project, see [AGENTS.md](AGENTS.md).
    npm start
    ```
 
-   The app should now be running on `http://localhost:3000`.
+   The app should now be running on `http://localhost:3000` by default. You can
+   set a different port by defining the `PORT` environment variable before
+   running the command.
 
 ## Description
 
