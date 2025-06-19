@@ -1,4 +1,4 @@
-# Particle Accelerator
+# Particle Project
 
 # Particle Project
 
@@ -39,7 +39,7 @@ For any questions or suggestions, please open an issue or contact the maintainer
 
 ## More Detailed Overview
 
-The Particle Accelerator project is an interactive particle simulation tool that allows users to adjust various parameters to see how they affect the behavior of particles on a canvas. The application provides a user-friendly interface for customizing the simulation and saving/loading these configurations.
+The Particle Project project is an interactive particle simulation tool that allows users to adjust various parameters to see how they affect the behavior of particles on a canvas. The application provides a user-friendly interface for customizing the simulation and saving/loading these configurations.
 
 ## Detailed Features List
 
