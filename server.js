@@ -49,7 +49,11 @@ app.put('/user_preferences.json', express.json(), (req, res) => {
     });
 });
 
-// Start the server
-app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
-});
+// Start the server when run directly
+if (require.main === module) {
+    app.listen(port, () => {
+        console.log(`Server running at http://localhost:${port}`);
+    });
+}
+
+module.exports = app;
