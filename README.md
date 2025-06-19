@@ -2,6 +2,8 @@
 
 # Particle Project
 
+For instructions on using Codex with this project, see [AGENTS.md](AGENTS.md).
+
 ## How to Get This App Running
 
 1. **Clone the Repository**
