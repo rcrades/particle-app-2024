@@ -79,7 +79,8 @@ The Particle Project project is an interactive particle simulation tool that all
     ```sh
     cd particle-accelerator
     ```
-3. Open `index.html` in your preferred web browser.
+3. Run `npm start`.
+4. Visit `http://localhost:3000` (or the port specified by `PORT`).
 
 ## Usage
 
